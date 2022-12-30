@@ -1,0 +1,137 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+// Variables
+@import 'variables';
+
+//$font-family-sans-serif: 'font-family: DM Sans';
+$form-check-input-width:1.5em;
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+//Bootstrap icon
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d3d1d1;
+    border-radius: 0;
+    background-color: white;
+}
+.form-control:focus{
+    outline: none;
+}
+.underline{
+    border-bottom: 1px solid #d3d1d1;
+}
+.image{
+    cursor: pointer;
+}
+
+.letter-spacing{
+    letter-spacing: 0.9px;
+}
+
+.btn-rounded{
+    letter-spacing: 0.9px;
+    border-radius: 0px 50px 50px 0px !important;
+}
+
+.show{
+    transition: 0.5s;
+}
+.show:hover{
+    background-color: rgba($black,0.1) !important;
+    cursor: pointer;
+    .show-none{
+        visibility: visible;
+    }
+    .form{
+        visibility: visible;
+    }
+}
+
+.form:checked{
+    visibility: visible;
+}
+
+.form{
+    visibility: visible;
+}
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+.show-none{
+    visibility: hidden;
+}
+
+.items{
+    position: sticky;
+    top: 85px;
+    z-index: 200;
+    background-color: white;
+}
+
+
+
+input:focus{
+    outline: none!important;
+}
+
+.dropdown-menu:hover{
+    background-color: white !important;
+}
+
+
+.rand{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.rand-two{
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+
+
+
+
